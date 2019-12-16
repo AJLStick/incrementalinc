@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -18,9 +17,9 @@
 
     <!-- The number of pencils, pencil makers, and pencil sharpeners you currently have -->
     <div id="resource-bar">
-      <img src="stick.png" width="32" height="32"> &times; <span id="pencil-count">0</span>
-      <img src="axe.png" width="32" height="32"> &times; <span id="maker-count">0</span>
-      <img src="chainsaw.png" width="32" height="32"> &times; <span id="sharpener-count">1</span>
+     CHAINSAWS &times; <span id="pencil-count">0</span>
+      AXES &times; <span id="maker-count">0</span>
+      STICKS &times; <span id="sharpener-count">1</span>
     </div>
 
     <!-- The rate at which your pencil makers create additional pencils -->
@@ -33,28 +32,28 @@
     <!-- Pencils -->
     <button onclick="makePencils()">
       <span id="pencils-per-click">+1</span>
-      <img src="stick.png" width="64" height="64">
+      <img src="stick.png">
     </button>
     
     <p>chop some sticks<br>costs s0</p><br>
 
     <!-- Pencil Makers -->
     <button onclick="buyPencilMaker()">+1
-      <img src="axe.png" width="64" height="64">
+      <img src="axe.png">
     </button>
 
     <p>buy axe
-      <br>+s.5<img src="stick.png" width="12" height="12">/ second
+      <br>+s.5<img src="stick.png">/ second
       <br>Cost: s<span id="maker-cost">10</span>
     </p><br>
 
     <!-- Pencil Sharpeners -->
     <button onclick="buyPencilSharpener()">+1
-      <img src="chainsaw.png" width="64" height="64">
+      <img src="chainsaw.png">
     </button>
 
     <p>buy CHAINSAW!!1!!!
-      <br>+s1<img src="chainsaw.png" width="12" height="12">/ click
+      <br>+s1<img src="chainsaw.png">/ click
       <br>Cost: s<span id="sharpener-cost">10</span>
     </p>
     
